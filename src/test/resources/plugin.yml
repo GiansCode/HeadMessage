@@ -1,0 +1,4 @@
+name: Test
+author: xQuickGlare
+version: 1.0.0
+main: io.alerium.headmessage.test.TestHeadPlugin
