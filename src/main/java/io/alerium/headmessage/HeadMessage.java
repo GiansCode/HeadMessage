@@ -101,7 +101,7 @@ public final class HeadMessage {
     }
     
     private static BufferedImage getSkullImage(UUID uuid, int size) throws IOException {
-        URL url = new URL(String.format("https://crafthead.net/avatar/%s/%s", uuid, size));
+        URL url = new URL(String.format("https://crafatar.com/avatars/%s?size=%s", uuid, size));
         return ImageIO.read(url);
     }
     
